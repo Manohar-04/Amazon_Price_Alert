@@ -18,16 +18,13 @@ A Gmail account with an app password for sending emails
 Installation
 ----------------
 Clone the repository:
-sh
-Copy code
+
 git clone https://github.com/your-username/amazon-price-alert.git
 Navigate to the project directory:
-sh
-Copy code
+
 cd amazon-price-alert
 Install the required Python libraries:
-sh
-Copy code
+
 pip install requests beautifulsoup4
 
 Setup
@@ -38,8 +35,6 @@ Update the recipient email in the send_mail function if necessary.
 Usage
 Run the script to start monitoring the price:
 
-sh
-Copy code
 python amazon_price_alert.py
 The script will check the product price every 3 seconds and send an email alert if the price drops below 500.
 
